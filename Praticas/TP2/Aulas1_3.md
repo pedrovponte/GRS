@@ -36,6 +36,8 @@ Host vmc
     - `ssh vmb` - Máquina cliente na qual vamos instalar containers
     - `ssh vmc`
 
+- Remover fingerprint: ssh -keygen -f "/home/pedrovponte/.ssh/known_hosts" -R "192.168.88.101"
+
 ## Configurar a net na vmb
 - Uso dos seguintes comandos para verificar se existe acesso á internet
     - `ping google.com`
